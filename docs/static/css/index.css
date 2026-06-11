@@ -1,0 +1,149 @@
+:root {
+  --slide-blue: #c9e2f4;
+  --slide-blue-light: #f6fbff;
+
+  --text-main: #111827;
+  --text-muted: #5f6b7a;
+
+  --button-dark-soft: #4b5563;
+  --button-dark-soft-hover: #374151;
+  --button-text: #ffffff;
+}
+
+body {
+  background: #ffffff;
+  color: var(--text-main);
+}
+
+/* Title area */
+
+.publication-hero {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: var(--slide-blue-light);
+  border-top: 18px solid var(--slide-blue);
+}
+
+.publication-hero .hero-body {
+  padding-top: 2.4rem;
+  padding-bottom: 1.1rem;
+}
+
+.publication-title {
+  line-height: 1.12;
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.publication-authors {
+  margin-bottom: 0.25rem;
+  color: var(--text-main);
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-affiliations {
+  color: var(--text-muted);
+}
+
+.publication-venue {
+  margin-top: 0.6rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* Teaser */
+
+.teaser-section {
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.teaser-figure {
+  margin: 0 auto;
+}
+
+.teaser-image {
+  width: 100%;
+}
+
+/* Links */
+
+.publication-links {
+  margin-top: 1.4rem;
+}
+
+.publication-links .button {
+  margin: 0.25rem 0.45rem;
+}
+
+.publication-button {
+  background-color: var(--button-dark-soft);
+  border-color: var(--button-dark-soft);
+  color: var(--button-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.publication-button:hover {
+  background-color: var(--button-dark-soft-hover);
+  border-color: var(--button-dark-soft-hover);
+  color: var(--button-text);
+}
+
+.publication-button.is-disabled {
+  opacity: 1;
+  background-color: var(--button-dark-soft);
+  border-color: var(--button-dark-soft);
+  color: var(--button-text);
+  cursor: default;
+  pointer-events: none;
+}
+
+.link-block {
+  display: inline-block;
+}
+
+/* Status text */
+
+.under-construction {
+  color: var(--text-muted);
+}
+
+/* Responsive adjustment */
+
+@media screen and (max-width: 768px) {
+  .publication-hero {
+    border-top-width: 12px;
+  }
+
+  .publication-hero .hero-body {
+    padding-top: 1.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .publication-title {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    line-height: 1.15;
+  }
+
+  .publication-links {
+    margin-top: 1.2rem;
+  }
+
+  .publication-links .button {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.25rem auto;
+  }
+
+  .link-block {
+    display: block;
+  }
+}
