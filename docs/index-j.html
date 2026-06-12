@@ -130,6 +130,46 @@
           </div>
         </section>
 
+        <h2 class="title is-3 section-title mt-6">Blender Add-on Demo</h2>
+
+        <div class="content abstract-content">
+          <p>
+            Blender標準のAuto Blendと，提案手法を実装したBlenderアドオンによる
+            モーション接続結果を比較します．
+          </p>
+        </div>
+
+        <video class="project-video" controls playsinline preload="metadata" width="100%">
+          <source src="./static/videos/blender_addon_demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="columns mt-4">
+          <div class="column">
+            <h3 class="title is-5">Blender Auto Blend</h3>
+            <ul>
+              <li>ルート移動が接続部でリセットされます．</li>
+              <li>姿勢差が大きい場合，不自然な回転が生じます．</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3 class="title is-5 demo-heading">
+              <span>Proposed Add-on</span>
+              <a class="button publication-button demo-try-button" href="./addon-j.html">
+                <span class="icon">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+                <span>Try!</span>
+              </a>
+            </h3>
+            <ul>
+              <li>ルート移動を滑らかに接続します．</li>
+              <li>関節姿勢を滑らかに接続します．</li>
+            </ul>
+          </div>
+        </div>
+
         <p class="under-construction is-size-7 mt-4 has-text-centered">
           このプロジェクトページは現在準備中です．Paper，BibTeX，追加資料は順次公開予定です．
         </p>

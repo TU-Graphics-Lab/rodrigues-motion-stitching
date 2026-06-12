@@ -8,11 +8,11 @@
     />
     <meta
       name="keywords"
-      content="Motion Stitching, Rodrigues Vector, Laplacian Optimization, Computer Animation, Computer Graphics"
+      content="motion stitching, Rodrigues vector, Laplacian optimization, computer graphics, character animation"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Smooth Motion Stitching</title>
+    <title>Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space</title>
 
     <link rel="alternate" hreflang="en" href="./index.html" />
     <link rel="alternate" hreflang="ja" href="./index-j.html" />
@@ -96,7 +96,7 @@
         <figure class="image teaser-figure">
           <img
             src="./static/images/teaser.png"
-            alt="Teaser image for Rodrigues motion stitching"
+            alt="Teaser image for Rodrigues-based motion stitching"
             class="teaser-image"
           />
         </figure>
@@ -130,8 +130,48 @@
           </div>
         </section>
 
+        <h2 class="title is-3 section-title mt-6">Blender Add-on Demo</h2>
+
+        <div class="content abstract-content">
+          <p>
+            This demo compares Blender's standard Auto Blend with our Blender add-on for motion
+            stitching.
+          </p>
+        </div>
+
+        <video class="project-video" controls playsinline preload="metadata" width="100%">
+          <source src="./static/videos/blender_addon_demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <div class="columns mt-4">
+          <div class="column">
+            <h3 class="title is-5">Blender Auto Blend</h3>
+            <ul>
+              <li>The root translation is reset at the transition.</li>
+              <li>Large pose differences cause unnatural rotations.</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h3 class="title is-5 demo-heading">
+              <span>Proposed Add-on</span>
+              <a class="button publication-button demo-try-button" href="./addon.html">
+                <span class="icon">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+                <span>Try!</span>
+              </a>
+            </h3>
+            <ul>
+              <li>Smoothly connects the root translation.</li>
+              <li>Smoothly connects the joint poses.</li>
+            </ul>
+          </div>
+        </div>
+
         <p class="under-construction is-size-7 mt-4 has-text-centered">
-          This project page is currently under construction. Paper, add-on, and additional materials
+          This project page is currently under construction. Paper, BibTeX, and additional materials
           will be added soon.
         </p>
       </div>

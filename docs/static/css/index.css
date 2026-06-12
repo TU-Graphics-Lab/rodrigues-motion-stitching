@@ -187,10 +187,68 @@ body {
   line-height: 1.8;
 }
 
+/* Videos */
+
+.video-section {
+  padding: 2rem 0 0;
+}
+
+.project-video {
+  display: block;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  background: #000000;
+}
+
 /* Status text */
 
 .under-construction {
   color: var(--text-muted);
+}
+
+/* Usage screenshots */
+
+.usage-screenshots {
+  margin-top: 0.5rem;
+}
+
+.guide-figure {
+  margin: 0;
+}
+
+.guide-figure img {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.guide-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Demo comparison */
+
+.demo-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.demo-try-button {
+  height: 1.85rem;
+  padding: 0 0.7rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.demo-try-button .icon {
+  margin-right: 0.25rem;
 }
 
 /* Responsive adjustment */
@@ -252,28 +310,16 @@ body {
     font-size: 1rem;
     line-height: 1.75;
   }
-}
 
-/* Usage screenshots */
+  .video-section {
+    padding-top: 1.5rem;
+  }
 
-.usage-screenshots {
-  margin-top: 0.5rem;
-}
+  .demo-heading {
+    gap: 0.5rem;
+  }
 
-.guide-figure {
-  margin: 0;
-}
-
-.guide-figure img {
-  width: 100%;
-  border: 1px solid #e5e7eb;
-  background: #ffffff;
-}
-
-.guide-figure figcaption {
-  margin-top: 0.5rem;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  line-height: 1.5;
-  text-align: center;
+  .demo-try-button {
+    height: 1.8rem;
+  }
 }
