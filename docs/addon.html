@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Download and installation guide for the Rodrigues Motion Stitching Blender add-on."
+    />
+    <meta
+      name="keywords"
+      content="Blender Add-on, Motion Stitching, Rodrigues Vector, Laplacian Optimization"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rodrigues Motion Stitching Add-on</title>
+
+    <link rel="alternate" hreflang="en" href="./addon.html" />
+    <link rel="alternate" hreflang="ja" href="./addon-j.html" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./static/css/index.css" />
+  </head>
+
+  <body>
+    <section class="hero publication-hero">
+      <div class="language-switch" aria-label="Language switch">
+        <a class="button language-button is-active" href="./addon.html">English</a>
+        <a class="button language-button" href="./addon-j.html">日本語</a>
+      </div>
+
+      <div class="hero-body">
+        <div class="container is-max-desktop has-text-centered">
+          <h1 class="title is-1 publication-title">Rodrigues Motion Stitching Add-on</h1>
+
+          <div class="is-size-6 publication-venue mt-3">
+            Blender add-on for Rodrigues-based motion stitching
+          </div>
+
+          <div class="publication-links mt-4">
+            <span class="link-block">
+              <a
+                class="button publication-button"
+                href="https://github.com/TU-Graphics-Lab/rodrigues-motion-stitching/releases/download/v0.1.0/rodrigues-motion-stitching-v0.1.0.zip"
+              >
+                <span class="icon">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+                <span class="button-label">
+                  <span class="button-main">Download</span>
+                  <span class="button-note">(v0.1.0)</span>
+                </span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a class="button publication-button" href="./index.html">
+                <span class="icon">
+                  <i class="fa-solid fa-house"></i>
+                </span>
+                <span class="button-label">
+                  <span class="button-main">Project Page</span>
+                </span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section abstract-section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 section-title">Overview</h2>
+
+        <div class="content abstract-content">
+          <p>
+            This page provides the initial public release of the Blender add-on for trying
+            Rodrigues-based motion stitching. The add-on is provided as a ZIP file and can be
+            installed from Blender's add-on preferences.
+          </p>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">Requirements</h2>
+
+        <div class="content abstract-content">
+          <ul>
+            <li>Blender 4.5 or later is recommended.</li>
+            <li>The input motions should be prepared as Blender actions or NLA strips.</li>
+            <li>This release is intended for trying the motion stitching workflow.</li>
+          </ul>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">Installation</h2>
+
+        <div class="content abstract-content">
+          <ol>
+            <li>
+              Download <code>rodrigues-motion-stitching-v0.1.0.zip</code> using the Download button
+              at the top of this page.
+            </li>
+            <li>Open Blender.</li>
+            <li>Go to <strong>Edit &gt; Preferences &gt; Add-ons</strong>.</li>
+            <li>Click <strong>Install...</strong> and select the downloaded ZIP file.</li>
+            <li>Enable the add-on from the add-on list.</li>
+          </ol>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">Notes</h2>
+
+        <div class="content abstract-content">
+          <ul>
+            <li>
+              The automatically generated <em>Source code</em> files on the GitHub Release page are
+              not the Blender add-on package. Please use the Download button on this page to obtain
+              the add-on ZIP file.
+            </li>
+            <li>
+              Documentation and example materials will be updated after further release checks.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

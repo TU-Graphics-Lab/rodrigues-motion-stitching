@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Rodrigues Motion Stitching Blenderアドオンのダウンロードとインストールガイドです．"
+    />
+    <meta
+      name="keywords"
+      content="Blenderアドオン, モーション接続, ロドリゲスベクトル, ラプラシアン最適化"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rodrigues Motion Stitching Add-on</title>
+
+    <link rel="alternate" hreflang="en" href="./addon.html" />
+    <link rel="alternate" hreflang="ja" href="./addon-j.html" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./static/css/index.css" />
+  </head>
+
+  <body>
+    <section class="hero publication-hero">
+      <div class="language-switch" aria-label="言語切り替え">
+        <a class="button language-button" href="./addon.html">English</a>
+        <a class="button language-button is-active" href="./addon-j.html">日本語</a>
+      </div>
+
+      <div class="hero-body">
+        <div class="container is-max-desktop has-text-centered">
+          <h1 class="title is-1 publication-title">Rodrigues Motion Stitching Add-on</h1>
+
+          <div class="is-size-6 publication-venue mt-3">
+            ロドリゲスベクトル表現に基づくモーション接続を試すためのBlenderアドオン
+          </div>
+
+          <div class="publication-links mt-4">
+            <span class="link-block">
+              <a
+                class="button publication-button"
+                href="https://github.com/TU-Graphics-Lab/rodrigues-motion-stitching/releases/download/v0.1.0/rodrigues-motion-stitching-v0.1.0.zip"
+              >
+                <span class="icon">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+                <span class="button-label">
+                  <span class="button-main">Download</span>
+                  <span class="button-note">(v0.1.0)</span>
+                </span>
+              </a>
+            </span>
+
+            <span class="link-block">
+              <a class="button publication-button" href="./index-j.html">
+                <span class="icon">
+                  <i class="fa-solid fa-house"></i>
+                </span>
+                <span class="button-label">
+                  <span class="button-main">Project Page</span>
+                </span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section abstract-section">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 section-title">概要</h2>
+
+        <div class="content abstract-content">
+          <p>
+            本ページでは，ロドリゲスベクトル表現に基づくモーション接続を試すための
+            Blenderアドオンの初期公開版を配布しています．アドオンはZIPファイルとして配布され，
+            Blenderのアドオン設定画面からインストールできます．
+          </p>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">動作環境</h2>
+
+        <div class="content abstract-content">
+          <ul>
+            <li>Blender 4.5以降を推奨します．</li>
+            <li>入力モーションは，BlenderのActionまたはNLA stripとして準備してください．</li>
+            <li>本リリースは，モーション接続ワークフローを試すための初期公開版です．</li>
+          </ul>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">インストール方法</h2>
+
+        <div class="content abstract-content">
+          <ol>
+            <li>
+              このページ上部のDownloadボタンから
+              <code>rodrigues-motion-stitching-v0.1.0.zip</code> をダウンロードします．
+            </li>
+            <li>Blenderを起動します．</li>
+            <li><strong>Edit &gt; Preferences &gt; Add-ons</strong> を開きます．</li>
+            <li><strong>Install...</strong> を押し，ダウンロードしたZIPファイルを選択します．</li>
+            <li>アドオン一覧からアドオンを有効化します．</li>
+          </ol>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">注意事項</h2>
+
+        <div class="content abstract-content">
+          <ul>
+            <li>
+              GitHub Releaseページに自動表示される
+              <em>Source code</em> はBlenderアドオン本体ではありません．
+              アドオンを利用する場合は，このページのDownloadボタンからZIPファイルを取得してください．
+            </li>
+            <li>ドキュメントやサンプル資料は，今後の確認後に順次更新予定です．</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

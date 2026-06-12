@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="Project page for Smooth Motion Stitching via Laplacian Optimization in Rodrigues Vector Space."
+      content="ロドリゲスベクトル空間におけるラプラシアン最適化による滑らかなモーション接続のプロジェクトページです．"
     />
     <meta
       name="keywords"
-      content="Motion Stitching, Rodrigues Vector, Laplacian Optimization, Computer Animation, Computer Graphics"
+      content="モーション接続, ロドリゲスベクトル, ラプラシアン最適化, コンピュータグラフィックス, キャラクターアニメーション"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Smooth Motion Stitching</title>
+    <title>ロドリゲスベクトル表現に基づく滑らかなモーション接続</title>
 
     <link rel="alternate" hreflang="en" href="./index.html" />
     <link rel="alternate" hreflang="ja" href="./index-j.html" />
@@ -27,9 +27,9 @@
 
   <body>
     <section class="hero publication-hero">
-      <div class="language-switch" aria-label="Language switch">
-        <a class="button language-button is-active" href="./index.html">English</a>
-        <a class="button language-button" href="./index-j.html">日本語</a>
+      <div class="language-switch" aria-label="言語切り替え">
+        <a class="button language-button" href="./index.html">English</a>
+        <a class="button language-button is-active" href="./index-j.html">日本語</a>
       </div>
 
       <div class="hero-body">
@@ -58,13 +58,13 @@
                 </span>
                 <span class="button-label">
                   <span class="button-main">Paper</span>
-                  <span class="button-note">(Coming Soon)</span>
+                  <span class="button-note">（準備中）</span>
                 </span>
               </a>
             </span>
 
             <span class="link-block">
-              <a class="button publication-button" href="./addon.html">
+              <a class="button publication-button" href="./addon-j.html">
                 <span class="icon">
                   <i class="fa-solid fa-download"></i>
                 </span>
@@ -82,7 +82,7 @@
                 </span>
                 <span class="button-label">
                   <span class="button-main">BibTeX</span>
-                  <span class="button-note">(Coming Soon)</span>
+                  <span class="button-note">（準備中）</span>
                 </span>
               </a>
             </span>
@@ -96,7 +96,7 @@
         <figure class="image teaser-figure">
           <img
             src="./static/images/teaser.png"
-            alt="Teaser image for Rodrigues motion stitching"
+            alt="ロドリゲスベクトル表現に基づくモーション接続のティザー画像"
             class="teaser-image"
           />
         </figure>
@@ -105,23 +105,22 @@
 
     <section class="section abstract-section">
       <div class="container is-max-desktop">
-        <h2 class="title is-3 section-title">Abstract</h2>
+        <h2 class="title is-3 section-title">概要</h2>
 
         <div class="content abstract-content">
           <p>
-            We present a motion stitching method for smoothly connecting multiple motion clips with
-            large pose differences. Our method represents joint rotations using Rodrigues vectors
-            and formulates motion stitching as a Laplacian optimization problem. By smoothing
-            transition regions while preserving the local temporal variations of each motion, the
-            method synthesizes natural motion sequences without relying on a large blending window.
-            We also analyze the effect of discontinuities in the Rodrigues vector representation and
-            confirm that the proposed method can be stably applied to real motion data.
+            本研究では，大きな姿勢差をもつ複数のモーションクリップを滑らかに接続するための
+            モーション接続手法を提案します．提案手法では，関節回転をロドリゲスベクトルとして
+            表現し，モーション接続をラプラシアン最適化問題として定式化します．各モーションの
+            局所的な時間変化を保持しながら接続部を平滑化することで，大きなブレンド区間に
+            依存せず，自然なモーション列を合成できます．さらに，ロドリゲスベクトル表現における
+            不連続性の影響を分析し，実データにおいて安定したモーション接続が可能であることを
+            確認しています．
           </p>
         </div>
 
         <p class="under-construction is-size-7 mt-4 has-text-centered">
-          This project page is currently under construction. Paper, add-on, and additional materials
-          will be added soon.
+          このプロジェクトページは現在準備中です．Paper，BibTeX，追加資料は順次公開予定です．
         </p>
       </div>
     </section>
