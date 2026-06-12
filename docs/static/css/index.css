@@ -253,3 +253,27 @@ body {
     line-height: 1.75;
   }
 }
+
+/* Usage screenshots */
+
+.usage-screenshots {
+  margin-top: 0.5rem;
+}
+
+.guide-figure {
+  margin: 0;
+}
+
+.guide-figure img {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.guide-figure figcaption {
+  margin-top: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+}
