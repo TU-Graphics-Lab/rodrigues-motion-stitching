@@ -134,8 +134,9 @@
 
         <div class="content abstract-content">
           <p>
-            This demo compares Blender's standard Auto Blend with our Blender add-on for motion
-            stitching.
+            This demo compares Blender's Auto Blend with our proposed method implemented as a
+            Blender add-on.<br />
+            The demo also shows how the proposed method is executed in Blender.
           </p>
         </div>
 
@@ -148,14 +149,14 @@
           <div class="column">
             <h3 class="title is-5">Blender Auto Blend</h3>
             <ul>
-              <li>The root translation is reset at the transition.</li>
-              <li>Large pose differences cause unnatural rotations.</li>
+              <li>Root motion can reset to the origin.</li>
+              <li>Large pose differences can cause unwanted twists.</li>
             </ul>
           </div>
 
           <div class="column">
             <h3 class="title is-5 demo-heading">
-              <span>Proposed Add-on</span>
+              <span>Proposed method</span>
               <a class="button publication-button demo-try-button" href="./addon.html">
                 <span class="icon">
                   <i class="fa-solid fa-download"></i>
@@ -164,15 +165,15 @@
               </a>
             </h3>
             <ul>
-              <li>Smoothly connects the root translation.</li>
-              <li>Smoothly connects the joint poses.</li>
+              <li>Smoothly connects the root motion.</li>
+              <li>Achieves natural rotation blending.</li>
             </ul>
           </div>
         </div>
 
         <p class="under-construction is-size-7 mt-4 has-text-centered">
-          This project page is currently under construction. Paper, BibTeX, and additional materials
-          will be added soon.
+          Paper and BibTeX are currently in preparation. Additional materials will be added or
+          updated as needed.
         </p>
       </div>
     </section>
