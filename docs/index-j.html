@@ -107,7 +107,7 @@
 
     <section class="section abstract-section">
       <div class="container is-max-desktop">
-        <h2 class="title is-3 section-title">概要</h2>
+        <h2 class="title is-3 section-title">Abstract</h2>
 
         <div class="content abstract-content">
           <p>
@@ -118,6 +118,26 @@
             依存せず，自然なモーション列を合成できます．さらに，ロドリゲスベクトル表現における
             不連続性の影響を分析し，実データにおいて安定したモーション接続が可能であることを
             確認しています．
+          </p>
+        </div>
+
+        <h2 class="title is-3 section-title mt-6">Method Overview</h2>
+
+        <figure class="image teaser-figure mt-4">
+          <img
+            src="./static/images/key_idea.png"
+            alt="ロドリゲスベクトル表現とラプラシアン最適化によるモーション接続の手法概要図"
+            class="teaser-image"
+          />
+        </figure>
+
+        <div class="content abstract-content mt-4">
+          <p>
+            <strong>提案モーション接続フレームワークの概要．</strong>
+            ロドリゲスベクトル表現は，関節回転を3次元ベクトルとして扱えるため，
+            回転時系列に対してラプラシアン最適化を適用しやすいという利点があります．
+            提案手法では，元のモーションの局所的な特徴を保持しながら接続部を補正し，
+            姿勢差が大きい動作間でも自然で滑らかな遷移を生成します．
           </p>
         </div>
 
