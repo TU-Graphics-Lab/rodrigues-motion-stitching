@@ -34,7 +34,7 @@ body {
   padding-bottom: 1.6rem;
 }
 
-.publication-title {
+.title.publication-title {
   line-height: 1.12;
   margin-bottom: 0.9rem;
   font-size: clamp(2.4rem, 4.5vw, 4.2rem);
@@ -270,23 +270,44 @@ body {
   }
 
   .publication-hero .hero-body {
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
   }
 
-  .publication-title {
-    font-size: clamp(2rem, 8vw, 2.8rem);
-    line-height: 1.15;
+  .title.publication-title {
+    font-size: clamp(1.55rem, 6.2vw, 2.05rem);
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+  }
+
+  .publication-venue {
+    font-size: 0.9rem;
+  }
+
+  .publication-authors {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .publication-affiliations {
+    font-size: 0.9rem;
   }
 
   .publication-links {
-    margin-top: 1.2rem;
+    margin-top: 0.9rem;
   }
 
   .publication-links .button {
     width: 100%;
-    max-width: 280px;
-    margin: 0.25rem auto;
+    max-width: 220px;
+    min-height: 2.15rem;
+    margin: 0.18rem auto;
+  }
+
+  .publication-button {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+    font-size: 0.86rem;
   }
 
   .button-label {
@@ -298,12 +319,17 @@ body {
   }
 
   .teaser-section {
-    padding-top: 1rem;
-    padding-bottom: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 1rem;
   }
 
   .abstract-section {
-    padding-top: 0.5rem;
+    padding-top: 0.4rem;
+  }
+
+  .title.section-title {
+    font-size: clamp(1.45rem, 6vw, 1.75rem);
+    line-height: 1.2;
   }
 
   .abstract-content {
@@ -321,5 +347,7 @@ body {
 
   .demo-try-button {
     height: 1.8rem;
+    padding: 0 0.7rem;
+    font-size: 0.75rem;
   }
 }
