@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://tu-graphics-lab.github.io/rodrigues-motion-stitching/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/index-j.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/" />
+  </url>
+
+  <url>
+    <loc>https://tu-graphics-lab.github.io/rodrigues-motion-stitching/index-j.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/index-j.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/" />
+  </url>
+
+  <url>
+    <loc>https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon-j.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon.html" />
+  </url>
+
+  <url>
+    <loc>https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon-j.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon-j.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tu-graphics-lab.github.io/rodrigues-motion-stitching/addon.html" />
+  </url>
+
+</urlset>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tu-graphics-lab.github.io/rodrigues-motion-stitching/sitemap.xml
